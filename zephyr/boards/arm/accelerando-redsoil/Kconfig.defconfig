@@ -1,0 +1,28 @@
+# Accelerando Redsoil (with eByte E73-2G4M08S1C nrf52840 System-on-module) configuration
+
+if BOARD_ACCELERANDO_REDSOIL
+
+config BOARD
+	default "accelerando_redsoil"
+
+if USB
+
+config USB_NRFX
+	default y
+
+config USB_DEVICE_STACK
+	default y
+
+endif # USB
+
+config IEEE802154_NRF5
+	default y
+	depends on IEEE802154
+
+config I2C
+	default y
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_ACCELERANDO_REDSOIL
