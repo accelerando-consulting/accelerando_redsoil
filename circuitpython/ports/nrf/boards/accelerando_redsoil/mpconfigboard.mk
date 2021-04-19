@@ -1,0 +1,12 @@
+// FIXME: these are the ids of the bluefruit
+USB_VID = 0x239A
+USB_PID = 0x8046
+
+USB_PRODUCT = "Redsoil"
+USB_MANUFACTURER = "Accelerando"
+
+MCU_CHIP = nrf52840
+
+INTERNAL_FLASH_FILESYSTEM = 1
+
+MICROPY_PY_ASYNC_AWAIT = 0
