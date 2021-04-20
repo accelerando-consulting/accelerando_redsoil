@@ -234,39 +234,18 @@ Text Label 9200 2750 2    50   ~ 0
 GND
 Text Label 3100 2750 0    50   ~ 0
 VDD
-Connection ~ 5950 1800
-Wire Wire Line
-	5950 1900 5950 1800
 Wire Wire Line
 	6000 1900 6000 2000
 Wire Wire Line
 	5950 1900 6000 1900
-Wire Wire Line
-	5950 1550 5950 1800
 Text Label 5950 1550 3    50   ~ 0
 VDD
-Wire Wire Line
-	5650 1800 5650 1900
-Connection ~ 5650 1800
-Wire Wire Line
-	5650 1500 5650 1800
 Text Label 5650 1500 3    50   ~ 0
 GND
 Wire Wire Line
 	5600 1900 5650 1900
 Wire Wire Line
 	5600 2000 5600 1900
-$Comp
-L Device:C C1
-U 1 1 5F26DE07
-P 5800 1800
-F 0 "C1" V 5650 1900 50  0000 C CNN
-F 1 "10uF" V 5650 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 1650 50  0001 C CNN
-F 3 "~" H 5800 1800 50  0001 C CNN
-	1    5800 1800
-	0    -1   -1   0   
-$EndComp
 Text Label 4200 4850 2    50   ~ 0
 SWDCLK
 Text Label 2750 5100 1    50   ~ 0
@@ -310,9 +289,51 @@ U 1 1 5F264D59
 P 2750 5300
 F 0 "J4" H 2850 5550 50  0000 C CNN
 F 1 "SWD" H 3000 5550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2750 5300 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 2750 5300 50  0001 C CNN
 F 3 "~" H 2750 5300 50  0001 C CNN
 	1    2750 5300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 607E5B78
+P 4600 1800
+F 0 "JP1" H 4600 1995 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 4600 1904 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4600 1800 50  0001 C CNN
+F 3 "~" H 4600 1800 50  0001 C CNN
+	1    4600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3050 3950 3050
+Wire Wire Line
+	3950 3050 3950 1800
+Wire Wire Line
+	3950 1800 4400 1800
+Wire Wire Line
+	4800 1800 4800 2000
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 607EA203
+P 8500 1150
+F 0 "J5" V 8562 1194 50  0000 L CNN
+F 1 "Batt" V 8653 1194 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 8500 1150 50  0001 C CNN
+F 3 "~" H 8500 1150 50  0001 C CNN
+	1    8500 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 1350 8500 1650
+Wire Wire Line
+	8500 1650 8800 1650
+Wire Wire Line
+	8800 1650 8800 1950
+Wire Wire Line
+	8400 1950 8400 1350
+Wire Wire Line
+	5650 1500 5650 1900
+Wire Wire Line
+	5950 1550 5950 1900
 $EndSCHEMATC
