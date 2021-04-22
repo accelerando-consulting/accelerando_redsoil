@@ -1,5 +1,5 @@
 identifier: accelerando_redsoil
-name: Accelerando Redsoile (with eByte E73-2G4M08S1C nrf52840 System-on-module)
+name: Accelerando Redsoil (with eByte E73-2G4M08S1C nrf52840 System-on-module)
 type: mcu
 arch: arm
 toolchain:

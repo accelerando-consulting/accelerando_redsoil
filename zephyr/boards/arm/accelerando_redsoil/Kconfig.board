@@ -1,4 +1,4 @@
 # Accelerando Redsoil (Breakout for eByte E73-2G4M08S1C nrf52840 System-on-module) configuration
-config BOARD_ACCLERANDO_REDSOIL
+config BOARD_ACCELERANDO_REDSOIL
 	bool "Accelerando Redsoil with eByte E73-2G4M08S1C nrf52840 System-on-module"
 	depends on SOC_NRF52840_QIAA
