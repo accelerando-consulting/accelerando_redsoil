@@ -52,9 +52,9 @@
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
-#define USB_DESC_VID           0x239A
-#define USB_DESC_UF2_PID       0x0045
-#define USB_DESC_CDC_ONLY_PID  0x0045
+#define USB_DESC_VID           0x1209
+#define USB_DESC_UF2_PID       0xACC1
+#define USB_DESC_CDC_ONLY_PID  0xACC1
 
 //------------- UF2 -------------//
 #define UF2_PRODUCT_NAME       "Accelerando Redsoil nRF52840"

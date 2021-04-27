@@ -1,6 +1,6 @@
-// FIXME: these are the ids of the bluefruit
-USB_VID = 0x239A
-USB_PID = 0x8046
+// USB ID 1209:ACC1 allocated by pidcodes.github.com
+USB_VID = 0x1209
+USB_PID = 0xACC1
 
 USB_PRODUCT = "Redsoil"
 USB_MANUFACTURER = "Accelerando"
